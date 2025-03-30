@@ -1,0 +1,142 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(to right, #1e293b, #334155); 
+  margin-top: 70px;
+  min-height: 100vh; /* Allow it to expand based on content */
+  height: auto; /* Auto adjust the height */
+}
+
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Loading & Error Messages */
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center everything */
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(to right, #1e293b, #334155); 
+  margin-top: 70px;
+  max-height: 1200px;
+
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  width: 70%; 
+  justify-content: center; /* Center the grid */
+  margin-top: 50px;
+}
+
+
+/* Individual Project Card */
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Project Image */
+.project-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Project Title */
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Project Description */
+.project-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Technologies Used */
+.project-technologies {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Links Section */
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+/* Links Styling */
+.project-links a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Live Demo Link */
+.live-demo {
+  background: #007bff;
+  color: #fff;
+}
+
+.live-demo:hover {
+  background: #0056b3;
+}
+
+/* GitHub Link */
+.github-link {
+  background: #28a745;
+  color: #fff;
+}
+
+.github-link:hover {
+  background: #1e7e34;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}

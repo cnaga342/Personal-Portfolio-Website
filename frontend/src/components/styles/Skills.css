@@ -1,0 +1,28 @@
+/* styles/Skills.css */
+
+.skills-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  background: linear-gradient(to right, #1e293b, #0f172a); /* Dark gradient background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #f8fafc;
+}
+
+.skills-container h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #60A5FA;
+  font-weight: 600;
+}
+
+.chart-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #1e293b;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}

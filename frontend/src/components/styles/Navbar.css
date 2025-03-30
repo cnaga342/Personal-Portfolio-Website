@@ -1,0 +1,61 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #1e293b, #334155);
+    border-radius: 4%;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fbe308;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Link Styling */
+  .nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #f8fc01;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Hover Effects */
+  .nav-links a:hover {
+    color: #007bff; /* Blue color on hover */
+  }
+  
+  /* Admin Link - Special Color */
+  .admin-link {
+    color: red;
+  }
+  
+  .admin-link:hover {
+    color: darkred;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-links {
+      margin-top: 10px;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
